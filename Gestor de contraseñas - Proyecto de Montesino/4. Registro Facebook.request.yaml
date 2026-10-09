@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://127.0.0.1:5000/registro/
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: '{"plataforma": "Facebook", "usuario": "victor", "clave": "123abc"}'
+order: 4000

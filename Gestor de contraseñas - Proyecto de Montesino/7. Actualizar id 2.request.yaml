@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://127.0.0.1:5000/actualizar/2
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: '{"plataforma": "Gmail", "usuario": "victor.ff@gmail.com", "clave": "nueva456"}'
+order: 7000

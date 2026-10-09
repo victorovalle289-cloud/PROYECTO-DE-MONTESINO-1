@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://127.0.0.1:5000/actualizar/1
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: '{"plataforma": "Facebook", "usuario": "victor_ff", "clave": "nueva123"}'
+order: 6000
